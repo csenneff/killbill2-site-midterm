@@ -2,7 +2,7 @@
     "user": "49f0ff26-c5f7-4e5c-82f2-928d1501d568",
     "users": {
         "49f0ff26-c5f7-4e5c-82f2-928d1501d568": {
-            "name": "humeman",
+            "name": "camden",
             "pfp": "images/pfp/49f0ff26-c5f7-4e5c-82f2-928d1501d568.png",
             "joined": "July 18, 1432",
             "playtime": "2.3 months",
@@ -97,7 +97,7 @@
         "all": {
             "playtime": [
                 {
-                    "name": "humeman",
+                    "name": "camden",
                     "val": "2.3 months"
                 },
                 {
@@ -111,7 +111,7 @@
             ],
             "wins_bill": [
                 {
-                    "name": "humeman",
+                    "name": "camden",
                     "val": 123
                 },
                 {
@@ -125,7 +125,7 @@
             ],
             "wins_player": [
                 {
-                    "name": "humeman",
+                    "name": "camden",
                     "val": 456
                 },
                 {
@@ -141,7 +141,7 @@
         "daily": {
             "playtime": [
                 {
-                    "name": "humeman",
+                    "name": "camden",
                     "val": "23.9 hours"
                 },
                 {
@@ -155,7 +155,7 @@
             ],
             "wins_bill": [
                 {
-                    "name": "humeman",
+                    "name": "camden",
                     "val": 12
                 },
                 {
@@ -169,7 +169,7 @@
             ],
             "wins_player": [
                 {
-                    "name": "humeman",
+                    "name": "camden",
                     "val": 57
                 },
                 {
