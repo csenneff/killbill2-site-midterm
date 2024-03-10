@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kill Bill 2</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <script>
+        get_all_then(() => {
+            load_friend();
+            load_bg();
+        })
+    </script>
+</head>
+<body>
+    <div class="navbar">
+        <a class="logo" href="index.html">KB<span class="red">2</span></a>
+        <a class="page" href="about.html">about</a>
+        <a class="page" href="devs.html">devs</a>
+        <a class="page" href="leaderboards.html">leaderboards</a>
+        <a class="account" href="account.html">account</a>
+    </div>
+
+    <div class="body">
+        <div class="cols">
+            <div class="col-1-3">
+                <img class="s" id="pfp" src="images/temp.png" alt="Profile Picture">
+                <a onclick="alert(`This functionality is reserved for the final project.`)" id="removefriend"><span class="red">remove friend</span></a>
+            </div>
+            <div class="col-left">
+                <h3 class="nopad left"><span class="red" id="username-val">test</span> <span class="secondaryred" id="role-val">[test]</span></h3>
+                <p id="bio" class="left">test</p>
+                <br>
+                <p class="nopad left">player since: <span class="secondaryred" id="joined-val"></span></p>
+                <p class="nopad left">wins as bill: <span class="secondaryred" id="wins-as-bill-val"></span></p>
+                <p class="nopad left">wins as player: <span class="secondaryred" id="wins-as-player-val"></span></p>
+                <p class="nopad left">play time: <span class="secondaryred" id="playtime-val"></span></p>
+            </div>
+        </div>
+
+        <h2>chat; <span class="secondaryred" id="chatcount-val"></span></h2>
+        <div class="rows" id="chat-rows">
+            <!--
+                Dynamic.
+
+                <div class="cols">
+                    <div class="col-1-10">
+                        <img src="" alt="PFP">
+                    </div>
+                    <div class="col">
+                        <p class="left"><span id="sender-val" class="secondaryred"></span> | <span id="time-val" class="secondaryred"></span></p>
+                        <p><span class="red">-- new --</span></p>
+                    </div>
+                </div>
+                <div class="col-1-3">
+                    <img id="friend-pfp" src="" alt="PFP">
+                    <a href="friend.html?name={friend}">name</a>
+                </div>
+            -->
+        </div>
+        <!--
+            Reserved for final project use.
+            <a href=""><span class="red">search for user</span></a>
+        -->
+
+        <div class="cols">
+            <input class="form" id="message-val" placeholder="enter your message...">
+            <button class="form" onclick="alert(`This functionality is reserved for the final project.`)">send</button>
+        </div>
+    </div>
+</body>
+</html>

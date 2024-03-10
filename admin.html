@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kill Bill 2</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <script>
+        get_all_then(() => {
+            load_admin();
+            load_bg();
+        })
+    </script>
+</head>
+<body>
+    <div class="navbar">
+        <a class="logo" href="index.html">KB<span class="red">2</span></a>
+        <a class="page" href="about.html">about</a>
+        <a class="page" href="devs.html">devs</a>
+        <a class="page" href="leaderboards.html">leaderboards</a>
+        <a class="account" href="account.html">account</a>
+    </div>
+
+    <div class="body">
+        <h1>admin;</h1>
+
+        <h2>reports; <span id="reportcount-val" class="secondaryred"></span></h2>
+        <div class="rows" id="reports-rows">
+            <!--
+                Dynamic.
+
+                <div class="cols">
+                    <div class="col">
+                        <img src="" alt="PFP">
+                    </div>
+                    <div class="col">
+                        <p class="left"><span id="type-val" class="red"></span> | <span id="sender-val" class="secondaryred"></span> | <span id="status-val" class="secondaryred"></span></p>
+                        <p class="left" id="content-val"></p>
+                        <br>
+                        <p class="left"><a onclick=""><span class="secondaryred">ban</span></a> | <a onclick=""><span class="secondaryred">ignore</span></a></span>
+                    </div>
+                </div>
+            -->
+        </div>
+
+        <h2>the deletinator;</h2>
+        <div class="rows">
+            <div class="cols">
+                <input class="form" id="user-val" placeholder="user id...">
+                <button class="form" onclick="alert('This functionality is reserved for the final project.')">delete</button>
+            </div>
+            <div class="cols">
+                <input class="form" id="message-val" placeholder="game id...">
+                <button class="form" onclick="alert('This functionality is reserved for the final project.')">delete</button>
+            </div>
+            <div class="cols">
+                <input class="form" id="message-val" placeholder="chat id...">
+                <button class="form" onclick="alert('This functionality is reserved for the final project.')">delete</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

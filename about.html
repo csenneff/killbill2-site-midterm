@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kill Bill 2</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="navbar">
+        <a class="logo" href="index.html">KB<span class="red">2</span></a>
+        <a class="page selected" href="about.html">about</a>
+        <a class="page" href="devs.html">devs</a>
+        <a class="page" href="leaderboards.html">leaderboards</a>
+        <a class="account" href="account.html">account</a>
+        <script src="index.js"></script>
+        <script>
+            get_all_then(() => {
+                load_bg();
+                increment_showcase();
+            })
+        </script>
+    </div>
+
+    <div class="body">
+        <h1>kill bill <span class="red">2</span>;</h1>
+
+        <p>
+            In Kill Bill, a deranged Bill, CEO of Michaelsoft, devised and attempted to execute a sinister plan to steal all the world's computers.
+            <br><br>
+            And though he was defeated, his legacy remains: in his son, Billy.
+            <br><br>
+            Billy is here to finish what his father started. The world's computers are once again at stake, and you're the only one that can save them.
+            <br><br>
+            Do you have what it takes to... <em>Kill Billy?</em>
+        </p>
+
+        <div class="cols">
+            <div class="col">
+                <img class="l" id="gallery" src="images/temp.png" alt="Screenshot gallery">
+                <p class="nopad"><a onclick="increment_showcase()"><span class="u secondaryred">next</span></a></p>
+            </div>
+            <div class="col-1-3">
+                <h2>play <span class="red">now</span>;</h2>
+                <p class="nopad"><a href="https://tecktip.today"><span class="u red">steam</span></a></p>
+                <p class="nopad"><a href="https://tecktip.today"><span class="u red">gplay</span></a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kill Bill 2</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="navbar">
+        <a class="logo" href="index.html">KB<span class="red">2</span></a>
+        <a class="page" href="about.html">about</a>
+        <a class="page" href="devs.html">devs</a>
+        <a class="page" href="leaderboards.html">leaderboards</a>
+        <a class="account selected" href="account.html">account</a>
+        <script src="index.js"></script>
+        <script>
+            get_all_then(() => {
+                load_user();
+                load_bg();
+            })
+        </script>
+    </div>
+
+    <div class="body">
+        <h1>account;</h1>
+
+        <div class="cols">
+            <div class="col-1-3">
+                <img class="s" id="pfp" src="images/temp.png" alt="Profile Picture">
+            </div>
+            <div class="col-left">
+                <h3 class="nopad left"><span class="red" id="username-val">test</span> <span class="secondaryred" id="role-val">[test]</span></h3>
+                <p id="bio" class="left">test</p>
+                <br>
+                <p class="nopad left">player since: <span class="secondaryred" id="joined-val"></span></p>
+                <p class="nopad left">wins as bill: <span class="secondaryred" id="wins-as-bill-val"></span></p>
+                <p class="nopad left">wins as player: <span class="secondaryred" id="wins-as-player-val"></span></p>
+                <p class="nopad left">play time: <span class="secondaryred" id="playtime-val"></span></p>
+            </div>
+        </div>
+
+        <h2>friends; <span class="secondaryred" id="friendcount-val"></span></h2>
+        <div class="cols" id="friends-cols">
+            <!--
+                Dynamic.
+
+                <div class="col-1-3">
+                    <div class="cols">
+                        <div class="col-1-5">
+                            <img id="friend-pfp" src="" alt="PFP">
+                        </div>
+                        <div class="col">
+                            <a href="friend.html?name={friend}">name</a>
+                        </div>
+                    </div>
+                </div>
+            -->
+        </div>
+        <!--
+            Reserved for final project use.
+            <a href=""><span class="red">search for user</span></a>
+        -->
+
+        <h2>games; <span class="secondaryred" id="gamecount-val"></span></h2>
+        <div class="rows" id="games-rows">
+            <!--
+                Dynamic.
+
+                <div class="cols">
+                    <div class="col-1-4">
+                        <img id="friend-pfp" src="" alt="PFP">
+                    </div>
+                </div>
+                <p class="left" id="game-description-val"></p>
+                <p class="left" id="game-status-val"></p>
+            -->
+        </div>
+
+        
+        <h2><a href="admin.html">admin panel;</a></h2>
+    </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kill Bill 2</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <script>
+        get_all_then(() => {
+            load_leaderboard();
+            load_bg();
+        })
+    </script>
+</head>
+<body>
+    <div class="navbar">
+        <a class="logo" href="index.html">KB<span class="red">2</span></a>
+        <a class="page" href="about.html">about</a>
+        <a class="page" href="devs.html">devs</a>
+        <a class="page selected" href="leaderboards.html">leaderboards</a>
+        <a class="account" href="account.html">account</a>
+    </div>
+
+    <div class="body">
+        <h1>leaderboards;</h1>
+
+        <div class="cols">
+            <div class="col-1-2">
+                <h2>daily;</h2>
+
+                <h3><u>time played</u></h3>
+                <ol class="leaderboard" id="daily-time-played">
+                    <!--
+                        Inserted via JS dynamically.
+
+                        <li>
+                            <span class="secondaryred">username</span> <span class="end secondaryred">number</span>
+                        </li>
+                    -->
+                </ol>
+                <h3><u>wins as bill</u></h3>
+                <ol class="leaderboard" id="daily-wins-as-bill">
+                </ol>
+
+                <h3><u>wins as player</u></h3>
+                <ol class="leaderboard" id="daily-wins-as-player">
+                </ol>
+            </div>
+            <div class="col-1-2">
+                <h2>all time;</h2>
+
+                <h3><u>time played</u></h3>
+                <ol class="leaderboard" id="time-played">
+                </ol>
+                <h3><u>wins as bill</u></h3>
+                <ol class="leaderboard" id="wins-as-bill">
+                </ol>
+
+                <h3><u>wins as player</u></h3>
+                <ol class="leaderboard" id="wins-as-player">
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

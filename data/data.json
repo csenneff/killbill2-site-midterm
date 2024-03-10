@@ -1,0 +1,243 @@
+{
+    "user": "49f0ff26-c5f7-4e5c-82f2-928d1501d568",
+    "users": {
+        "49f0ff26-c5f7-4e5c-82f2-928d1501d568": {
+            "name": "humeman",
+            "pfp": "images/pfp/49f0ff26-c5f7-4e5c-82f2-928d1501d568.png",
+            "joined": "July 18, 1432",
+            "playtime": "2.3 months",
+            "wins_bill": 123,
+            "wins_player": 456,
+            "role": "admin",
+            "friends": [
+                "48382183-ae63-44b8-98ef-e0ff36e40815",
+                "91232454-29ab-4bf3-961c-f41adbc7a8d7",
+                "4c1b06db-9e95-4a50-8efe-86f8abc88297"
+            ],
+            "bio": "teck tip for you today !!! bill gate"
+        },
+        "48382183-ae63-44b8-98ef-e0ff36e40815": {
+            "name": "zea",
+            "pfp": "images/pfp/48382183-ae63-44b8-98ef-e0ff36e40815.png",
+            "joined": "June 6, 1551",
+            "playtime": "1.2 weeks",
+            "wins_bill": 1,
+            "wins_player": 2,
+            "role": "admin",
+            "bio": "gameing"
+        },
+        "91232454-29ab-4bf3-961c-f41adbc7a8d7": {
+            "name": "woods",
+            "pfp": "images/pfp/91232454-29ab-4bf3-961c-f41adbc7a8d7.png",
+            "joined": "Today",
+            "playtime": "2 seconds",
+            "wins_bill": 3,
+            "wins_player": 1,
+            "role": "player",
+            "bio": "AARON WOODS. AARON WOODS. AARON WOODS. AARON WOODS."
+        },
+        "4c1b06db-9e95-4a50-8efe-86f8abc88297": {
+            "name": "andres",
+            "pfp": "images/pfp/4c1b06db-9e95-4a50-8efe-86f8abc88297.png",
+            "joined": "January 1, 1874",
+            "playtime": "36 seconds",
+            "wins_bill": 5,
+            "wins_player": 4,
+            "role": "admin",
+            "bio": "meine na mne is andoerles lopepelerz"
+        },
+        "d13f337b-b222-4b54-8017-50016b26d360": {
+            "name": "bill",
+            "pfp": "images/pfp/d13f337b-b222-4b54-8017-50016b26d360.png",
+            "joined": "The beginning of time",
+            "playtime": "Infinite",
+            "wins_bill": 0,
+            "wins_player": 0,
+            "role": "player",
+            "bio": "CEO of Michaelsoft"
+        }
+    },
+    "chat": {
+        "48382183-ae63-44b8-98ef-e0ff36e40815": [
+            {
+                "id": "48382183-ae63-44b8-98ef-e0ff36e40815",
+                "time": "8:15 PM",
+                "msg": "hello guy"
+            },{
+                "id": "49f0ff26-c5f7-4e5c-82f2-928d1501d568",
+                "time": "8:17 PM",
+                "msg": "hello guy!"
+            },
+            {
+                "id": "48382183-ae63-44b8-98ef-e0ff36e40815",
+                "time": "8:19 PM",
+                "msg": "hello guy."
+            }
+        ],
+        "91232454-29ab-4bf3-961c-f41adbc7a8d7": [
+            {
+                "id": "91232454-29ab-4bf3-961c-f41adbc7a8d7",
+                "time": "8:19 PM",
+                "msg": "i am aaron woods"
+            }
+        ],
+        "4c1b06db-9e95-4a50-8efe-86f8abc88297": [
+            {
+                "id": "4c1b06db-9e95-4a50-8efe-86f8abc88297",
+                "time": "4:39 AM",
+                "msg": "you know I really don't think Bill is real"
+            },{
+                "id": "49f0ff26-c5f7-4e5c-82f2-928d1501d568",
+                "time": "6:14 PM",
+                "msg": "this is not true"
+            }
+        ]
+    },
+    "leaderboards": {
+        "all": {
+            "playtime": [
+                {
+                    "name": "humeman",
+                    "val": "2.3 months"
+                },
+                {
+                    "name": "zea",
+                    "val": "1.2 weeks"
+                },
+                {
+                    "name": "andres",
+                    "val": "36 seconds"
+                }
+            ],
+            "wins_bill": [
+                {
+                    "name": "humeman",
+                    "val": 123
+                },
+                {
+                    "name": "andres",
+                    "val": 2
+                },
+                {
+                    "name": "zea",
+                    "val": 1
+                }
+            ],
+            "wins_player": [
+                {
+                    "name": "humeman",
+                    "val": 456
+                },
+                {
+                    "name": "andres",
+                    "val": 3
+                },
+                {
+                    "name": "zea",
+                    "val": 2
+                }
+            ]
+        },
+        "daily": {
+            "playtime": [
+                {
+                    "name": "humeman",
+                    "val": "23.9 hours"
+                },
+                {
+                    "name": "zea",
+                    "val": "1.2 hours"
+                },
+                {
+                    "name": "andres",
+                    "val": "35 seconds"
+                }
+            ],
+            "wins_bill": [
+                {
+                    "name": "humeman",
+                    "val": 12
+                },
+                {
+                    "name": "andres",
+                    "val": 2
+                },
+                {
+                    "name": "zea",
+                    "val": 1
+                }
+            ],
+            "wins_player": [
+                {
+                    "name": "humeman",
+                    "val": 57
+                },
+                {
+                    "name": "andres",
+                    "val": 2
+                },
+                {
+                    "name": "zea",
+                    "val": 1
+                }
+            ]
+        }
+    },
+    "games": [
+        {
+            "players": [
+                "49f0ff26-c5f7-4e5c-82f2-928d1501d568",
+                "48382183-ae63-44b8-98ef-e0ff36e40815",
+                "91232454-29ab-4bf3-961c-f41adbc7a8d7"
+            ],
+            "name": "my cool game",
+            "time": "9:32 PM",
+            "status": "in game"
+        },
+        {
+            "players": [
+                "49f0ff26-c5f7-4e5c-82f2-928d1501d568",
+                "d13f337b-b222-4b54-8017-50016b26d360",
+                "4c1b06db-9e95-4a50-8efe-86f8abc88297"
+            ],
+            "name": "my cooler game",
+            "time": "9:33 PM",
+            "status": "in lobby"
+        }
+    ],
+    "admin": [
+        {
+            "type": "chat",
+            "status": "reported 8:20PM by andres",
+            "id": "d13f337b-b222-4b54-8017-50016b26d360",
+            "content": "i actually hate computers"
+        },
+        {
+            "type": "user",
+            "status": "reported 3:41AM by zea",
+            "id": "4c1b06db-9e95-4a50-8efe-86f8abc88297",
+            "content": "he's cyberbullying me"
+        }
+    ],
+    "backgrounds": [
+        "images/backgrounds/title_bg1.png",
+        "images/backgrounds/title_bg2.png",
+        "images/backgrounds/title_bg3.png",
+        "images/backgrounds/title_bg4.png",
+        "images/backgrounds/title_bg5.png",
+        "images/backgrounds/title_bg6.png",
+        "images/backgrounds/title_bghouse.png",
+        "images/backgrounds/title_bghekimoglu.png"
+    ],
+    "showcase": [
+        "images/showcase/1.png",
+        "images/showcase/2.png",
+        "images/showcase/3.png",
+        "images/showcase/4.png",
+        "images/showcase/5.png",
+        "images/showcase/6.png",
+        "images/showcase/7.png",
+        "images/showcase/8.png",
+        "images/showcase/9.png"
+    ]
+}
